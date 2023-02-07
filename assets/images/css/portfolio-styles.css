@@ -32,6 +32,7 @@ nav {
   padding-bottom: 50px;
 }
 
+/*Styling for the nav bar*/
 .nav-item {
   display: block;
   background-color: #e6f7ff;
@@ -43,6 +44,7 @@ nav {
   position: sticky;
 }
 
+/*Pseudo effects for each nav item*/
 .nav-item:hover {
   background-color: #ffffff;
   color: #595959;
@@ -62,6 +64,7 @@ nav {
   font-size: 38px;
 }
 
+/*Creating flexbox to allow for responsiveness between different screen sizes*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -75,6 +78,7 @@ nav {
   color: #e6f7ff;
 }
 
+/*Creating border styling when each image is hovered over*/
 .border img {
   transition: .5s ease;
   }
@@ -105,12 +109,14 @@ nav {
   margin: 10px;
 }
 
+/*Creating another flexbox specifically for the footer section*/
 .flex-container-footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
+/*Creating media queries for responsive web design*/
 @media screen and (max-width: 780px) {
   h1, h2 {
     text-align: center;
